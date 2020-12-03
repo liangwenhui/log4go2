@@ -23,14 +23,14 @@ type FmtBuffer struct {
 	maxSize    int
 }
 
-func NewDefFmtBuffer() FmtBuffer {
-	return FmtBuffer{
+func NewDefFmtBuffer() *FmtBuffer {
+	return &FmtBuffer{
 		idCacheMap: make(map[int64]FmtCache, 16),
 		fmtIdMap:   make(map[string]int64, 16),
 	}
 }
 
-func (buffer *FmtBuffer) Put(fmt string) {
+func (buffer *FmtBuffer) Put(fmt string) int64 {
 
 	buffer.Lock()
 	defer buffer.Unlock()
@@ -41,7 +41,7 @@ func (buffer *FmtBuffer) Put(fmt string) {
 		buffer.idCacheMap[id] = cache
 		buffer.fmtIdMap[fmt] = id
 	}
-
+	return id
 }
 
 func (buffer *FmtBuffer) GetByFmt(fmt string) FmtCache {

@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:develop" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="71bba219-f08f-4e4b-a98b-1fa290629a38" name="Default Changelist" comment="" />
+    <list default="true" id="71bba219-f08f-4e4b-a98b-1fa290629a38" name="Default Changelist" comment="init">
+      <change afterPath="$PROJECT_DIR$/core/ArgBuffer_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/Loga_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/ArgBuffer.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/ArgBuffer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/FmtBuffer.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/FmtBuffer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/Loga.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/Loga.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testlog.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/testlog.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +39,11 @@
   </component>
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l5jgBIs9U7BszBWCozAF453vSa" />
@@ -25,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -37,7 +66,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="go.vgo" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,23 +118,35 @@
       <pattern value="^Test$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestId in log4go/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestArgBuffer_Put in log4go2/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="log4go" />
       <working_directory value="$PROJECT_DIR$/core" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="log4go/core" />
+      <package value="log4go2/core" />
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestId$" />
+      <pattern value="^TestArgBuffer_Put$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestLoga_Printf in log4go2/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="log4go" />
+      <working_directory value="$PROJECT_DIR$/core" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="log4go2/core" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestLoga_Printf$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build log4go2/test" />
+        <item itemvalue="Go Test.TestLoga_Printf in log4go2/core" />
+        <item itemvalue="Go Test.TestArgBuffer_Put in log4go2/core" />
         <item itemvalue="Go Test.Test in log4go2/core" />
         <item itemvalue="Go Test.Test in log4go/core" />
-        <item itemvalue="Go Test.TestId in log4go/core" />
       </list>
     </recent_temporary>
   </component>
@@ -123,58 +164,113 @@
       <workItem from="1606896629639" duration="6262000" />
       <workItem from="1606964743138" duration="11000" />
       <workItem from="1606977989511" duration="333000" />
-      <workItem from="1606978583125" duration="31000" />
+      <workItem from="1606978583125" duration="8468000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1606978641846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606978641846</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="237" y="70" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606894167556">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="237" y="70" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606894167556" />
+    <state x="964" y="140" key="#xdebugger.evaluate" timestamp="1606986500001">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="964" y="140" key="#xdebugger.evaluate/0.0.1536.834@0.0.1536.834" timestamp="1606986500001" />
+    <state width="637" height="466" key="DebuggerActiveHint" timestamp="1606985533160">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="637" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1606985533160" />
     <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1606894134775">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606894134775" />
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1606903149172">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1606987033019">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
-    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1606903149172">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606987033019" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1606987033019">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
-    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1606903149171">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606987033019" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1606987033019">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606903149171" />
-    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1606903149172">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606987033019" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1606987033019">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606903149173">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606987033019" />
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom" timestamp="1606986517629">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606903149173" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606903149172">
+    <state width="1493" height="264" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606986517629" />
+    <state width="1493" height="264" key="GridCell.Tab.1.center" timestamp="1606986517629">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606903149172">
+    <state width="1493" height="264" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606986517629" />
+    <state width="1493" height="264" key="GridCell.Tab.1.left" timestamp="1606986517629">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606903149173">
+    <state width="1493" height="264" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606986517629" />
+    <state width="1493" height="264" key="GridCell.Tab.1.right" timestamp="1606986517629">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606903149173" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1606896660895">
+    <state width="1493" height="264" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606986517629" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1606986948264">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606896660895" />
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606986948264" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1606978670118">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1606978670118" />
+    <state width="768" height="417" key="XDebugger.FullValuePopup" timestamp="1606984827473">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="768" height="417" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1606984827473" />
+    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606986957442">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="563" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.834@0.0.1536.834" timestamp="1606986957442" />
     <state x="425" y="189" key="run.anything.popup" timestamp="1606898955092">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -184,9 +280,24 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/core/FmtBuffer.go</url>
-          <line>35</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/core/ArgBuffer_test.go</url>
+          <line>14</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/core/Loga_test.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/core/ArgBuffer.go</url>
+          <line>49</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/core/ArgBuffer.go</url>
+          <line>54</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

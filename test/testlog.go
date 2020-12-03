@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
+	"log4go2/core"
 	"os"
 	"time"
 )
@@ -13,8 +14,9 @@ func main() {
 }
 
 func testLog() {
-	iLoopTime := flag.Int("loop", 10, "loop")
+	iLoopTime := flag.Int("loop", 100, "loop")
 	flag.Parse()
+	loga := core.NewLoga()
 	var iLoopTimes = *iLoopTime
 	var test_times = 500
 	pid := os.Getpid()
@@ -24,13 +26,14 @@ func testLog() {
 		for x := 0; x < 20; x++ {
 			for i := j; i < test_times; i++ {
 				//fmt.Fprintf(writer,AiRandomFmt[i], AiRandomInt[i], AiRandomInt[test_times+i], AsRandomStr[i], AfRandomFloat[i])
-				fmt.Println(AiRandomFmt[i])
+				loga.Printf(AiRandomFmt[i], AiRandomInt[i], AiRandomInt[test_times+i], AsRandomStr[i], AfRandomFloat[i])
 			}
 		}
 	}
 	since := time.Since(start)
 	fmt.Println("循环耗时：", since)
 	fmt.Printf("Press any key to exit...\n")
+	loga.Flush()
 	b := make([]byte, 1)
 	os.Stdin.Read(b)
 }
