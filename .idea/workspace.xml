@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71bba219-f08f-4e4b-a98b-1fa290629a38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="D:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l5jgBIs9U7BszBWCozAF453vSa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\goWorks\src\log4go\core" />
+      <recent name="D:\goWorks\src\log4go\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\goWorks\src\log4go" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build log4go2/test">
+    <configuration name="go build log4go2/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="log4go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test/testlog.go" />
+      <package value="log4go2/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build log4go/test" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="log4go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test/testlog.go" />
+      <package value="log4go/test" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test in log4go2/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="log4go" />
+      <working_directory value="$PROJECT_DIR$/core" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="log4go2/core" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Test in log4go/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="log4go" />
+      <working_directory value="$PROJECT_DIR$/core" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="log4go/core" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^Test$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestId in log4go/core" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="log4go" />
+      <working_directory value="$PROJECT_DIR$/core" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="log4go/core" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestId$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build log4go2/test" />
+        <item itemvalue="Go Test.Test in log4go2/core" />
+        <item itemvalue="Go Test.Test in log4go/core" />
+        <item itemvalue="Go Test.TestId in log4go/core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71bba219-f08f-4e4b-a98b-1fa290629a38" name="Default Changelist" comment="" />
+      <created>1606896627976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606896627976</updated>
+      <workItem from="1606896629639" duration="6262000" />
+      <workItem from="1606964743138" duration="11000" />
+      <workItem from="1606977989511" duration="333000" />
+      <workItem from="1606978583125" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="237" y="70" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606894167556">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="237" y="70" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1606894167556" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1606894134775">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1606894134775" />
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom" timestamp="1606903149172">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
+    <state width="1493" height="265" key="GridCell.Tab.0.center" timestamp="1606903149172">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
+    <state width="1493" height="265" key="GridCell.Tab.0.left" timestamp="1606903149171">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1606903149171" />
+    <state width="1493" height="265" key="GridCell.Tab.0.right" timestamp="1606903149172">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1606903149173">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1606903149173" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1606903149172">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1606903149172">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1606903149172" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1606903149173">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1606903149173" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1606896660895">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1606896660895" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1606898955092">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1606898955092" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/core/FmtBuffer.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
